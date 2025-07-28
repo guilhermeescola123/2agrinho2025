@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festejando a Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Festejando a Conexão Campo-Cidade</h1>
+    <div id="quiz">
+      <p id="question">Carregando pergunta...</p>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Próxima</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Você acertou <span id="score"></span> de 3 perguntas!</h2>
+      <button onclick="restartQuiz()">Jogar Novamente</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
